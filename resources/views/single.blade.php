@@ -65,7 +65,7 @@
             <span class="town"> г. Запорожье<br>ул.Новокузнецкая21 </span>
         </div>
         <div class="col-4 col-img">
-            <img src="http://127.0.0.1:8000/storage/geologo.png" alt="logo">
+            <img src="{{ url('/') }}/storage/geologo.png" alt="logo">
         </div>
         <div class="col-4 phone-numer">
             <i class="fas fa-phone-square-alt "></i>
@@ -75,7 +75,7 @@
     </div>
 </div>
 <div class="main-image">
-    <img src="http://127.0.0.1:8000/storage/geodesy-700x310.jpg" alt="content-image">
+    <img src="{{ url('/') }}/storage/geodesy-700x310.jpg" alt="content-image">
 </div>
 <div class="service">
     <h2>Наши услуги:</h2>
@@ -151,7 +151,7 @@
     </div>
 </div>
 <div class="main-image2">
-    <img src="http://127.0.0.1:8000/storage/geologo2.png" alt="content-image">
+    <img src="{{ url('/') }}/storage/geologo2.png" alt="content-image">
 </div>
 <div class="about-us">
     <h2>О нас</h2>
@@ -175,7 +175,7 @@
     </p>
 </div>
 <div class="about-us-image">
-    <img id="myImg" src="http://127.0.0.1:8000/storage/sertificat2.png"  onclick="bigImg(this)" onmouseout="normalImg(this)">
+    <img id="myImg" src="{{ url('/') }}/storage/sertificat2.png"  onclick="bigImg(this)" onmouseout="normalImg(this)">
 </div>
 <?php
 if(Auth::user()) {
