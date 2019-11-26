@@ -24,3 +24,4 @@ function normalImg(x) {
     x.style.width = "300px";
 }
 
+
